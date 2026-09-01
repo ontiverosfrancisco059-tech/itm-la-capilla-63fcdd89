@@ -1,153 +1,326 @@
 <!doctype html>
-<html lang="es-MX">
-<head>
+<html lang="es"><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Una selección para elegir | la capilla</title>
-  <meta name="description" content="Una selección para elegir de la capilla">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos · La Capilla · Hopelchén</title>
+  <meta name="description" content="Hamburguesas, papas fritas, boneless, bebidas y postres. Conoce el menú completo de La Capilla y pide por WhatsApp en Hopelchén.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&amp;family=Inter:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet">
 </head>
-<body class="secondary-page theme-catalogo">
-  <div class="site-shell">
-    <header class="section" id="inicio">
-      <div class="container">
-        <div class="topbar">
-          <a class="brand" href="index.html" aria-label="la capilla">
-            <span class="brand-mark brand-mark-image"><img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/cb0ab900-5e8b-45c3-9661-323baa01a9e5-captura-de-pantalla-2026-06-22-145156.png" alt="Logo oficial" loading="eager"></span>
-            <span class="brand-copy">
-              <strong>la capilla</strong>
-              <span>restaurante en hopelchen</span>
-            </span>
-          </a>
-          <div class="topbar-actions">
-            <a class="button-secondary" href="index.html">Inicio</a>
-            <a class="button" href="tel:0987654321">Contactar</a>
+<body class="cap-site">
+
+  <!-- Topbar -->
+  <header class="cap-topbar">
+    <div class="cap-shell cap-topbar-inner">
+      <a class="cap-brand" href="index.html" aria-label="La Capilla">
+        <span class="cap-brand-mark"><img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/cb0ab900-5e8b-45c3-9661-323baa01a9e5-captura-de-pantalla-2026-06-22-145156-2.png" alt="Logo La Capilla" loading="eager"></span>
+        <span class="cap-brand-text">
+          <strong>La Capilla</strong>
+          <em>Hopelchén · desde 7 pm</em>
+        </span>
+      </a>
+      <nav class="cap-nav" aria-label="Navegación principal">
+        <a href="index.html#especialidades">Especialidades</a>
+        <a href="index.html#menu">Menú</a>
+        <a href="index.html#galeria">Galería</a>
+        <a href="index.html#experiencia">Experiencia</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+      <a class="cap-cta" href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 19.05 4.9 9.86 9.86 0 0 0 12.04 2Zm5.45 14.13c-.23.64-1.36 1.24-1.86 1.28-.47.05-.92.22-3.11-.65-2.62-1.02-4.27-3.74-4.4-3.92-.13-.18-1.05-1.4-1.05-2.67 0-1.27.66-1.89.9-2.15.23-.26.5-.32.67-.32.17 0 .34.01.48.01.16 0 .36-.06.57.43.23.55.79 1.93.86 2.07.07.14.12.31.02.5-.1.18-.14.3-.28.46-.14.16-.3.36-.42.48-.14.14-.29.29-.12.57.16.28.74 1.21 1.59 1.96 1.09.97 2.01 1.27 2.29 1.41.28.14.45.12.62-.07.16-.19.71-.83.9-1.12.18-.28.37-.24.62-.14.25.09 1.62.76 1.9.9.28.14.46.21.53.32.07.11.07.65-.16 1.28Z"></path></svg>
+        Pedir por WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO PRODUCTOS -->
+    <section class="cap-hero">
+      <div class="cap-hero-bg" aria-hidden="true"></div>
+      <div class="cap-hero-glow" aria-hidden="true"></div>
+      <div class="cap-shell cap-hero-inner">
+        <div class="cap-hero-copy">
+          <span class="cap-tag"><span class="cap-dot"></span> Abierto ahora · 7 pm — 11 pm</span>
+          <h1>
+            <span class="cap-hero-line">El menú</span>
+            <span class="cap-hero-italic">completo</span>
+            <span class="cap-hero-line">de <em>La Capilla</em>.</span>
+          </h1>
+          <p>Hamburguesas al carbón, papas crujientes, boneless, refrescos bien fríos y un postre casero para cerrar la noche. Todo se prepara al momento — a domicilio o para comer aquí.</p>
+          <div class="cap-hero-actions">
+            <a class="cap-btn cap-btn--solid" href="#catalogo">Ver el catálogo</a>
+            <a class="cap-btn cap-btn--ghost" href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 19.05 4.9 9.86 9.86 0 0 0 12.04 2Z"></path></svg>
+              Pedir por WhatsApp
+            </a>
           </div>
+          <ul class="cap-hero-stats">
+            <li><strong>+30</strong><span>platillos servidos cada noche</span></li>
+            <li><strong>20 min</strong><span>promedio a domicilio</span></li>
+            <li><strong>5</strong><span>categorías en el menú</span></li>
+          </ul>
         </div>
+        <figure class="cap-hero-figure">
+          <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/6290bde3-7ff0-4237-94d5-f1f7c58c5d8e-captura-de-pantalla-2026-06-28-183947-2.png" alt="Hamburguesa insignia de La Capilla" loading="eager">
+          <figcaption class="cap-hero-badge">
+            <span>★ 4.9</span>
+            <small>Lo que repiten nuestros clientes</small>
+          </figcaption>
+        </figure>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="hero">
-        <div class="container">
-          <div class="surface section-surface">
-            <span class="kicker">Productos</span>
-            <h1>Una selección para elegir</h1>
-            <p>Explora los productos y usa el canal de contacto indicado para hacer tu pedido.</p>
-          </div>
-        </div>
-      </section>
+    <!-- CATÁLOGO / PRODUCTOS -->
+    <section id="catalogo" class="cap-section">
+      <div class="cap-shell">
+        <header class="cap-section-head cap-section-head--center">
+          <span class="cap-eyebrow">Catálogo</span>
+          <h2>Todo lo que <em>preparamos</em>.</h2>
+          <p>Cinco categorías, una sola promesa: ingredientes frescos, porciones honestas y la salsa de la casa en cada pedido.</p>
+        </header>
 
-      <section class="section" id="contenido">
-        <div class="container">
-          <div class="surface section-surface">
-            <div class="feature-grid">
-        <article class="feature-card">
-          <strong>comida rapida hambirguesas</strong>
-          <p>Solicita detalles, disponibilidad y la información actualizada directamente al negocio.</p>
-        </article>
-  
-        <article class="feature-card">
-          <strong>papas fritas  ect  y bebidas sosdas  gaseosas</strong>
-          <p>Solicita detalles, disponibilidad y la información actualizada directamente al negocio.</p>
-        </article>
-  
-        <article class="feature-card">
-          <strong>comida rapida y bebidas</strong>
-          <p>Solicita detalles, disponibilidad y la información actualizada directamente al negocio.</p>
-        </article>
-  </div>
-            <div class="inline-links">
-              <a class="button" href="tel:0987654321">Contactar</a>
-              <a class="button-secondary" href="index.html">Volver al inicio</a>
+        <div class="cap-prod-grid">
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/9dee17b9-5989-4c04-81a5-56a6d2270579-captura-de-pantalla-2026-06-28-183947-2.png" alt="Hamburguesas La Capilla" loading="lazy">
             </div>
-          </div>
-        </div>
-      </section>
-    
-      <section class="resource-section" id="recursos">
-        <div class="container">
-          <div class="resource-heading">
-            <span class="kicker">Recursos</span>
-            <h2>Conoce mejor el negocio</h2>
-            <p>Imágenes y videos seleccionados para acompañar la información principal.</p>
-          </div>
-          <div class="resource-gallery">
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/9dee17b9-5989-4c04-81a5-56a6d2270579-captura-de-pantalla-2026-06-28-183947.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/429c3a91-69d6-4c55-be36-e30e1e36e39a-captura-de-pantalla-2026-06-28-184014.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/778309f7-7098-4dc0-a43b-c36a8c86d15d-captura-de-pantalla-2026-06-28-184057.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/1df3a6cd-2780-4780-89b0-fd530cb4790c-captura-de-pantalla-2026-06-28-184213.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/06ec2f1f-6c64-4aa3-80eb-d113fb08dc9a-captura-de-pantalla-2026-06-28-184257.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c3ec0e20-55ff-4a04-8fe9-72b50806a0b0-captura-de-pantalla-2026-06-28-203143.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/6290bde3-7ff0-4237-94d5-f1f7c58c5d8e-captura-de-pantalla-2026-06-28-183947.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/5e9e1de8-d0f1-43b6-b50a-aea3a4cb805f-captura-de-pantalla-2026-06-28-203301.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/0bd9fb63-5551-4b27-bd84-2e0cbcd0da3d-captura-de-pantalla-2026-06-28-204855.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c3941c7c-3403-4f2d-882c-316e9b5ad3ee-captura-de-pantalla-2026-06-27-184415---copia.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c8442d64-a362-4469-a5e8-0c5792de0d52-captura-de-pantalla-2026-06-28-205228---copia.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/1726b67e-2aaf-4375-a48b-482d1fedd1c0-captura-de-pantalla-2026-07-04-134039.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  
-    <figure class="resource-card">
-      <img src="https://rrmhpuwrdlksccefjgnj.supabase.co/storage/v1/object/public/itm-project-assets/fa2a0edb-afd2-4cea-aa49-1c2edebb0638/63fcdd89-92d5-4dcf-ba6b-335134f677f3/2d284801-5a4d-4d7b-a82c-cc4814d408b8-captura-de-pantalla-2026-07-04-134242.png" alt="Imagen del negocio" loading="lazy">
-      
-    </figure>
-  </div>
-          
-        </div>
-      </section>
-    </main>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">01</span>
+              <h3>Hamburguesas</h3>
+              <p>Carne al carbón, queso derretido, vegetales frescos y nuestra salsa de la casa en pan suave. La estrella de la noche.</p>
+              <span class="cap-prod-meta">Individual · al momento</span>
+            </div>
+          </article>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="surface footer-surface"><strong>la capilla</strong></div>
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/778309f7-7098-4dc0-a43b-c36a8c86d15d-captura-de-pantalla-2026-06-28-184057-2.png" alt="Papas fritas crujientes" loading="lazy">
+            </div>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">02</span>
+              <h3>Papas fritas</h3>
+              <p>Cortadas al momento, doradas por fuera y esponjosas por dentro. Con sal de la casa y aderezos para elegir.</p>
+              <span class="cap-prod-meta">Porción · para compartir</span>
+            </div>
+          </article>
+
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/1df3a6cd-2780-4780-89b0-fd530cb4790c-captura-de-pantalla-2026-06-28-184213-2.png" alt="Bebidas y refrescos fríos" loading="lazy">
+            </div>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">03</span>
+              <h3>Bebidas</h3>
+              <p>Gaseosas, aguas y sabores que combinan perfecto con cada combo. Siempre al punto de hielo.</p>
+              <span class="cap-prod-meta">Refrescos · aguas</span>
+            </div>
+          </article>
+
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/06ec2f1f-6c64-4aa3-80eb-d113fb08dc9a-captura-de-pantalla-2026-06-28-184257-2.png" alt="Postre casero de La Capilla" loading="lazy">
+            </div>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">04</span>
+              <h3>Postres</h3>
+              <p>El cierre dulce para una noche redonda. Caseros, suaves y pensados para compartir o disfrutar a solas.</p>
+              <span class="cap-prod-meta">Casero · del día</span>
+            </div>
+          </article>
+
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c3ec0e20-55ff-4a04-8fe9-72b50806a0b0-captura-de-pantalla-2026-06-28-203143-2.png" alt="Boneless crujientes" loading="lazy">
+            </div>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">05</span>
+              <h3>Boneless</h3>
+              <p>Trozos de pollo empanizados, dorados y crujientes, con salsas para dipping. Perfectos para compartir.</p>
+              <span class="cap-prod-meta">Para compartir · con salsas</span>
+            </div>
+          </article>
+
+          <article class="cap-prod-card">
+            <div class="cap-prod-img">
+              <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/5e9e1de8-d0f1-43b6-b50a-aea3a4cb805f-captura-de-pantalla-2026-06-28-203301-2.png" alt="Combos para dos personas" loading="lazy">
+            </div>
+            <div class="cap-prod-body">
+              <span class="cap-prod-num">06</span>
+              <h3>Combos para dos</h3>
+              <p>Hamburguesa + papas + bebida para dos personas. La forma más fácil de pedir para compartir en casa.</p>
+              <span class="cap-prod-meta">Combo · 2 personas</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="cap-menu-cta">
+          <a class="cap-btn cap-btn--solid" href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 19.05 4.9 9.86 9.86 0 0 0 12.04 2Z"></path></svg>
+            Pedir por WhatsApp
+          </a>
+          <a class="cap-btn cap-btn--ghost" href="tel:0987654321">Llamar al local</a>
+        </div>
       </div>
-    </footer>
-  </div>
-</body>
-</html>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="cap-section cap-section--muted">
+      <div class="cap-shell">
+        <header class="cap-section-head cap-section-head--center">
+          <span class="cap-eyebrow">Galería</span>
+          <h2>Una probadita <em>visual</em>.</h2>
+          <p>Nuestro local, nuestros platillos y el ambiente que te espera cada noche.</p>
+        </header>
+        <div class="cap-gallery">
+          <figure class="cap-gallery-item cap-gallery-item--tall">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c3ec0e20-55ff-4a04-8fe9-72b50806a0b0-captura-de-pantalla-2026-06-28-203143-2.png" alt="Platillo insignia de La Capilla" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/429c3a91-69d6-4c55-be36-e30e1e36e39a-captura-de-pantalla-2026-06-28-184014-2.png" alt="Hamburguesa servida" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/778309f7-7098-4dc0-a43b-c36a8c86d15d-captura-de-pantalla-2026-06-28-184057-2.png" alt="Papas fritas" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/1df3a6cd-2780-4780-89b0-fd530cb4790c-captura-de-pantalla-2026-06-28-184213-2.png" alt="Bebidas frías" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item cap-gallery-item--wide">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/6290bde3-7ff0-4237-94d5-f1f7c58c5d8e-captura-de-pantalla-2026-06-28-183947-2.png" alt="Ambiente del local" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/5e9e1de8-d0f1-43b6-b50a-aea3a4cb805f-captura-de-pantalla-2026-06-28-203301-2.png" alt="Detalle de platillo" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/0bd9fb63-5551-4b27-bd84-2e0cbcd0da3d-captura-de-pantalla-2026-06-28-204855-2.png" alt="Combo para dos" loading="lazy">
+          </figure>
+          <figure class="cap-gallery-item">
+            <img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/c3941c7c-3403-4f2d-882c-316e9b5ad3ee-captura-de-pantalla-2026-06-27-184415---copia-2.png" alt="Local por fuera" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO PRÁCTICA -->
+    <section class="cap-section">
+      <div class="cap-shell">
+        <header class="cap-section-head cap-section-head--center">
+          <span class="cap-eyebrow">Información práctica</span>
+          <h2>Todo lo que <em>necesitas saber</em>.</h2>
+        </header>
+        <div class="cap-info-grid">
+          <article class="cap-info-card">
+            <span class="cap-info-icon">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8Zm.5-13H11v6l5 3l.8-1.3l-4.3-2.6Z"></path></svg>
+            </span>
+            <strong>Horario</strong>
+            <span>de 7 a 11 pm</span>
+            <small>Atendemos de noche, todos los días.</small>
+          </article>
+          <article class="cap-info-card">
+            <span class="cap-info-icon">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24a11.36 11.36 0 0 0 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1a11.36 11.36 0 0 0 .57 3.58a1 1 0 0 1-.24 1.02Z"></path></svg>
+            </span>
+            <strong>Teléfono</strong>
+            <a href="tel:0987654321">0987654321</a>
+            <small>Llamadas y mensajes en horario de atención.</small>
+          </article>
+          <article class="cap-info-card cap-info-card--highlight">
+            <span class="cap-info-icon">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.86 9.86 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 19.05 4.9 9.86 9.86 0 0 0 12.04 2Z"></path></svg>
+            </span>
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">981 133 2914</a>
+            <small>La forma más rápida de pedir tu combo.</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA WHATSAPP -->
+    <section class="cap-cta">
+      <div class="cap-shell cap-cta-inner">
+        <div class="cap-cta-copy">
+          <span class="cap-eyebrow cap-eyebrow--light">Listos para servirte</span>
+          <h2>Tu próxima <em>noche rica</em> empieza aquí.</h2>
+          <p>Escríbenos por WhatsApp, llama al local o visítanos en Hopelchén. Te esperamos de 7 a 11 pm con todo listo.</p>
+        </div>
+        <div class="cap-cta-actions">
+          <a class="cap-btn cap-btn--white" href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.86 9.86 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Z"></path></svg>
+            Pedir por WhatsApp
+          </a>
+          <a class="cap-btn cap-btn--outline" href="tel:0987654321">Llamar al local</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="cap-section">
+      <div class="cap-shell">
+        <header class="cap-section-head">
+          <span class="cap-eyebrow">Contacto</span>
+          <h2>Ven a <em>conocernos</em>.</h2>
+          <p>Estamos en Hopelchén. Llámanos, escríbenos por WhatsApp o visítanos directamente en el local.</p>
+        </header>
+        <div class="cap-contact-grid">
+          <article class="cap-contact-card">
+            <strong>Teléfono</strong>
+            <a href="tel:0987654321">0987654321</a>
+            <span>Atención de 7 a 11 pm</span>
+          </article>
+          <article class="cap-contact-card">
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">981 133 2914</a>
+            <span>Respuesta casi inmediata</span>
+          </article>
+          <article class="cap-contact-card">
+            <strong>Ubicación</strong>
+            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3767.0904662573457!2d-89.3124938!3d19.2348887!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f59c978a844ea81%3A0x84fe829ff02fd803!2sTALLER%20DE%20BORDADO!5e0!3m2!1ses-419!2smx!4v1788230896243" target="_blank" rel="noopener noreferrer">Hopelchén, Campeche</a>
+            <span>Ver en Google Maps</span>
+          </article>
+          <article class="cap-contact-card">
+            <strong>Horario</strong>
+            <span>de 7 a 11 pm</span>
+            <span>Todos los días</span>
+          </article>
+        </div>
+        <div class="cap-map">
+          <iframe title="Ubicación de La Capilla en Hopelchén" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3767.0904662573457!2d-89.3124938!3d19.2348887!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f59c978a844ea81%3A0x84fe829ff02fd803!2sTALLER%20DE%20BORDADO!5e0!3m2!1ses-419!2smx!4v1788230896243" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="cap-footer">
+    <div class="cap-shell cap-footer-inner">
+      <div class="cap-footer-brand">
+        <span class="cap-brand-mark"><img src="fotos/63fcdd89-92d5-4dcf-ba6b-335134f677f3/cb0ab900-5e8b-45c3-9661-323baa01a9e5-captura-de-pantalla-2026-06-22-145156-2.png" alt="Logo La Capilla" loading="lazy"></span>
+        <div>
+          <strong>La Capilla</strong>
+          <em>Hopelchén, Campeche</em>
+        </div>
+      </div>
+      <nav class="cap-footer-nav" aria-label="Pie de página">
+        <a href="index.html#especialidades">Especialidades</a>
+        <a href="index.html#menu">Menú</a>
+        <a href="index.html#galeria">Galería</a>
+        <a href="index.html#experiencia">Experiencia</a>
+        <a href="index.html#contacto">Contacto</a>
+        <a href="productos.html">Productos</a>
+      </nav>
+      <div class="cap-footer-meta">
+        <span>de 7 a 11 pm</span>
+        <span>·</span>
+        <a href="tel:0987654321">0987654321</a>
+        <span>·</span>
+        <a href="https://wa.me/5219811332914" target="_blank" rel="noopener noreferrer">WhatsApp 981 133 2914</a>
+      </div>
+      <small class="cap-footer-copy">© La Capilla — Comida rápida con alma en Hopelchén.</small>
+    </div>
+  </footer>
+
+</body></html>
